@@ -1,0 +1,32 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Local terraform config
+.terraform/
+.terraform.lock.hcl
+
+# Module cache
+.terraform/modules/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python virtualenv (if you mix Python tooling)
+venv/
+__pycache__/
+*.pyc
